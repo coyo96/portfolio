@@ -38,6 +38,9 @@ public class LordOfTheRingsBookInfo {
         Scanner scanner = new Scanner(System.in);
 
         while (true) {
+            System.out.println(); // Add a line break for spacing
+            System.out.println(); // Add a line break for spacing
+
             System.out.println("Lord of the Rings Book Selection:");
             System.out.println("1. The Fellowship of the Ring");
             System.out.println("2. The Two Towers");
@@ -52,7 +55,7 @@ public class LordOfTheRingsBookInfo {
                 break; // Exit the program
             }
 
-            System.out.println(); // Add a line break for readability
+            System.out.println(); // Line break for spacing
 
             // Display book information based on user selection
             switch (selection) {
